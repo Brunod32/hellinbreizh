@@ -1,1 +1,1 @@
-Add README file
+Add navbar and visual display
