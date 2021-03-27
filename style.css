@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 2fr 1fr 8fr 2fr;
+  grid-template-area: "head"
+                      "nav"
+                      ".container"
+                      "footer"
+}
+
+h1 {
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  padding-top: 25px;
+}
+
+nav {
+  
+}
+
+#container {
+  
+}
+
+footer{
+  background-color: grey;
+}
+
+#plan {
+  padding-left: 20%;
+  padding-top: 20px;
+}
