@@ -1,8 +1,10 @@
 body {
+  background: rgb(118, 118, 119);
+  color: rgb(0, 1, 2);
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-rows: 2fr 1fr 8fr 2fr;
+  grid-template-rows: 2fr 1fr 8fr 1fr;
   grid-template-areas: "head"
                       "nav"
                       ".container"
@@ -10,23 +12,36 @@ body {
 }
 
 h1 {
+  grid-area: "head";
+  color: red;
   font-family: 'New Rocker', cursive;
   text-align: center;
   padding-top: 25px;
 }
 
-#presentation {
-  margin: 40px;
+nav {
+  grid-area: "nav";
+}
+
+#presentation,
+#profil {
+  margin: 50px;
   padding: 15px;
   border: solid 2px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background: rgb(200, 200, 202);
+}
 
+#profil-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 footer{
-  background-color: grey;
+  grid-area: "footer";
+  background: rgb(81, 81, 82)
 }
 
 #plan {
