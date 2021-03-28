@@ -36,22 +36,22 @@ nav {
   background: rgb(200, 200, 202);
 }
 
+a {
+  color: red;
+}
+
 #profil-container,
 #groupe-list {
   display: flex;
   justify-content: space-around;
 }
 
-#profil > img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
+#profil > img,
 #groupe > img {
   width: 200px;
   height: auto;
-  padding: 25px;
+  border-radius: 10%;
+  padding: 15px;
 }
 
 #concert > img,
@@ -81,5 +81,4 @@ footer{
 
 #plan {
   padding-left: 20%;
-  padding-top: 20px;
 }
