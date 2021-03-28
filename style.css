@@ -18,7 +18,6 @@ h1 {
   font-size: 500%;
   text-align: center;
   padding-top: 25px;
-
 }
 
 nav {
@@ -26,7 +25,8 @@ nav {
 }
 
 #presentation,
-#profil {
+#profil,
+#groupe {
   margin: 50px;
   padding: 15px;
   border: solid 2px;
@@ -36,15 +36,42 @@ nav {
   background: rgb(200, 200, 202);
 }
 
-#profil-container {
+#profil-container,
+#groupe-list {
   display: flex;
   justify-content: space-around;
 }
 
-img {
+#profil > img {
   width: 150px;
   height: auto;
   border-radius: 50%;
+}
+
+#groupe > img {
+  width: 200px;
+  height: auto;
+  padding: 25px;
+}
+
+#concert > img,
+#concert > p {
+  margin: 50px;
+  text-align: center;
+}
+
+.float-img-left {
+  display: flex;
+  float: left;
+}
+
+#localisation {
+  margin: 50px;
+}
+
+#map {
+  display: flex;
+  float: right;
 }
 
 footer{
