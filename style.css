@@ -74,6 +74,36 @@ a {
   float: right;
 }
 
+form {
+  border: solid 2px black;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+fieldset {
+  border: solid black 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+
+legend {
+  font-style: italic;
+}
+
+form #name,
+#firstname,
+#email {
+  display: block;
+}
+
+#button {
+  margin: 5px;
+  text-align: center;
+}
+
 footer{
   grid-area: "footer";
   background: rgb(81, 81, 82)
