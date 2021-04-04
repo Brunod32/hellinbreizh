@@ -2,26 +2,14 @@ body {
   background: rgb(118, 118, 119);
   color: rgb(0, 1, 2);
   display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-rows: 2fr 1fr 8fr 1fr;
-  grid-template-areas: "head"
-                      "nav"
-                      ".container"
-                      "footer"
 }
 
 h1 {
-  grid-area: "head";
   color: black;
   font-family: 'New Rocker', cursive;
   font-size: 500%;
   text-align: center;
   padding-top: 25px;
-}
-
-nav {
-  grid-area: "nav";
 }
 
 #presentation,
@@ -37,7 +25,8 @@ nav {
 }
 
 a {
-  color: red;
+  color: lightblue;
+  text-decoration: underline;
 }
 
 #profil-container,
@@ -79,6 +68,7 @@ form {
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -104,8 +94,11 @@ form #name,
   text-align: center;
 }
 
-footer{
-  grid-area: "footer";
+#sitemap {
+  display: inline-block;
+}
+
+footer {
   background: rgb(81, 81, 82)
 }
 
