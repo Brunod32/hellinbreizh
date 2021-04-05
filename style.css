@@ -12,6 +12,10 @@ h1 {
   padding-top: 25px;
 }
 
+h2 {
+  text-align: center;
+}
+
 #presentation,
 #profil,
 #groupe {
@@ -29,18 +33,17 @@ a {
   text-decoration: underline;
 }
 
-#profil-container,
-#groupe-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-#profil > img,
-#groupe > img {
+.card > img {
   width: 200px;
   height: auto;
-  border-radius: 10%;
   padding: 15px;
+  margin: auto;
+}
+
+.card {
+  background: rgb(200, 200, 202);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: solid 2px black;
 }
 
 #concert > img,
@@ -52,6 +55,11 @@ a {
 .float-img-left {
   display: flex;
   float: left;
+}
+
+.float-text-left {
+  display: flex;
+  text-align: center;
 }
 
 #localisation {
@@ -70,6 +78,7 @@ form {
   margin-right: auto;
   margin-bottom: 10px;
   padding: 10px;
+  background: rgb(200, 200, 202);
 }
 
 fieldset {
@@ -102,6 +111,31 @@ footer {
   background: rgb(81, 81, 82)
 }
 
-#plan {
+#plan,
+#sitemap {
   padding-left: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .title-form,
+  .title-group,
+  .title-profil {
+    text-align: center;
+  }
+  .float-img-left,
+  #map {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  #concert > p,
+  .float-text-left {
+    text-align: justify;
+  }
+  .float-text-left {
+    padding-right: 20px;
+  }
+  select.responsive-width {
+    width: 180px;
+  }
 }

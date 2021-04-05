@@ -66,47 +66,53 @@
       </div>
     </nav>
 
-    <div id="container">
-      <div id="presentation">
-        <h2>Présentation de l'association</h2>
-          <p>
-            L'association "Hell in Breizh" est née du regroupement d'amis bretons autour d'une passion commune pour le heavy métal.<br>
-            Ce genre musical est apparu à la fin des années 1960 et est un dérivé du rock. Il se caractérise par des sonorités lourdes et 
-            épaisses de batterie et de guitare à la distorsion très amplifiée. Souvent jugé extrême voir
-            provocateur, le metal a su gagner sa place auprès du grand public dans les années 1980 et génère toujours un fort engouement de 
-            la part de ses fans à travers le monde. Musique en perpétuelle évolution, elle puise de nouvelles sonorités dans de nombreux autres 
-            styles musicaux (classique, contemporain, régionaux,...).<br>
-            C'est de ce constat qu'est née "Hell in Breizh": 3 amis musiciens désireux de combiner leur amour pour le metal et leurs racines
-            bretonnes.
-          </p>
+    <div id="presentation">
+      <h2>Présentation de l'association</h2>
+        <p>
+          L'association "Hell in Breizh" est née du regroupement d'amis bretons autour d'une passion commune pour le heavy métal.<br>
+          Ce genre musical est apparu à la fin des années 1960 et est un dérivé du rock. Il se caractérise par des sonorités lourdes et 
+          épaisses de batterie et de guitare à la distorsion très amplifiée. Souvent jugé extrême voir
+          provocateur, le metal a su gagner sa place auprès du grand public dans les années 1980 et génère toujours un fort engouement de 
+          la part de ses fans à travers le monde. Musique en perpétuelle évolution, elle puise de nouvelles sonorités dans de nombreux autres 
+          styles musicaux (classique, contemporain, régionaux,...).<br>
+          C'est de ce constat qu'est née "Hell in Breizh": 3 amis musiciens désireux de combiner leur amour pour le métal et leurs racines
+          bretonnes.
+        </p>
+    </div>
+
+    <h2 class="title-profil">Qui sommes-nous ?</h2>
+
+    <div class="row justify-content-around text-center">
+      <div class="col-12 col-md-3 mb-5 mt2">
+        <div class="card">
+          <img src="./Pictures/Jackson.jpg" alt="Jackson">
+          <div class="card-body">
+            <h3 class="card-title">Jackson</h3>
+            <p class="card-text">Doté d'un leadership naturel, Jack est l'instigateur du projet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-5 mt2">
+        <div class="card">
+          <img src="./Pictures/Stratos.jpg" alt="Stratos">
+          <div class="card-body">
+            <h3 class="card-title">Stratos</h3>
+            <p class="card-text">Ami d'enfance et compagnon inséparable de Jack, Stratos s'est lancé a corps perdu dans le projet dès le début.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-5 mt2">
+        <div class="card">
+          <img src="./Pictures/Plector.jpg" alt="Plector">
+          <div class="card-body">
+            <h3 class="card-title">Plector</h3>
+            <p class="card-body">Dernier arrivé dans la bande, Plector est l'élément fédérateur du trio.</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div id="profil-container">
-      <div id="profil">
-        <h2>Jackson</h2>
-        <img src="./Pictures/Jackson.jpg" alt="jackson">
-        <p>
-          Doté d'un leadership naturel, Jack est l'instigateur du projet.
-        </p>
-      </div>
-      <div id="profil">
-        <h2>Stratos</h2>
-        <img src="./Pictures/Stratos.jpg" alt="stratos">
-        <p>
-          Ami d'enfance et compagnon inséparable de Jack, Stratos s'est lancé a corps perdu dans le projet dès le début.
-        </p>
-      </div>
-      <div id="profil">
-        <h2>Plector</h2>
-        <img src="./Pictures/Plector.jpg" alt="plector">
-        <p>
-          Dernier arrivé dans la bande, Plector est l'élément fédérateur du trio.
-        </p>
-      </div>
-    </div>
-
-    <h3>Vous pouvez rejoindre l'association en remplissant ce formulaire.</h3>
+    <h2 class="title-form">Vous pouvez rejoindre l'association en remplissant ce formulaire.</h2>
     <form methode="POST" action="" id="formulaire">
       <fieldset>
         <legend>Votre identité</legend>
@@ -132,7 +138,7 @@
         <label for="metalquestion">Non</label><br>
         
         <label for="bretagnequestion">Avez-vous déjà visiter la Bretagne ?</label>
-        <select name="bretagnequestion" id="bretagnequestion">
+        <select class="responsive-width" name="bretagnequestion" id="bretagnequestion">
           <option value="">Selectionnez votre réponse</option>
           <option value="reponse1">Oui</option>
           <option value="reponse2">Jamais entendu parler</option>
