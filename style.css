@@ -113,8 +113,10 @@ footer {
 
 #plan,
 #sitemap,
-#contact {
+#contact,
+#social {
   padding-left: 20%;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
