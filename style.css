@@ -16,9 +16,7 @@ h2 {
   text-align: center;
 }
 
-#presentation,
-#profil,
-#groupe {
+#presentation {
   margin: 50px;
   padding: 15px;
   border: solid 2px;
@@ -31,6 +29,12 @@ h2 {
 a {
   color: lightblue;
   text-decoration: underline;
+}
+
+.title-profil,
+.title-group,
+.title-form {
+  padding-bottom: 20px;
 }
 
 .card > img {
