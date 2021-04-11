@@ -119,6 +119,12 @@ footer {
   padding-top: 20px;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
 @media screen and (max-width: 800px) {
   .title-form,
   .title-group,
