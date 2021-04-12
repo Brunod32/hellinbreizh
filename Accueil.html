@@ -16,11 +16,11 @@
   </head>
   <body>
 
-    <div class="modal" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimer" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-center" role="document">
+    <div class="modal" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Avertissement</h5>
+            <h5 class="modal-title" id="disclaimer">Avertissement</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
-    
+   
     <div id="top"></div>
     <h1>Hell in Breizh</h1>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
@@ -148,7 +148,7 @@
       </fieldset>
 
       <div id="button">
-        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#disclaimer">Envoyer le formulaire</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#disclaimer">Envoyer le formulaire</button>
         <button type="reset" class="btn btn-danger">Réinitialiser le formulaire</button>
       </div>
     </form>
